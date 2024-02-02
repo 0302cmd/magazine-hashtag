@@ -1,0 +1,14 @@
+{
+    "name": "Node.js",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": { "VARIANT": "14" }
+    },
+  
+    // Use o diretório atual se você não precisar de um Dockerfile personalizado.
+    // "appPort": [3000],
+  
+    // Adicione as extensões do VS Code que você deseja instalar automaticamente.
+    "extensions": ["dbaeumer.vscode-eslint"],
+  }
+  
